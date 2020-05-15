@@ -30,5 +30,5 @@
 #### Trouve l'expression régulière qui correspond à l'url de la fiche du fils sur IMDB https://www.imdb.com/title/tt0133093 (attention à ne pas sélectionner les parenthèses).
 
 ``` php
-
+(https?://)(w{3})(.)([a-zA-Z]+)(.)([a-zA-Z]{2,3})(\/[a-zA-Z0-9]+)+
 ```
